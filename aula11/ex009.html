@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Onde Vive</title>
+</head>
+<body>
+    País onde mora: <input type="text" name="país" id="país">
+    <input type="button" value="ok" onclick="ok()">
+    <div id='res'>
+
+    </div>
+    <script>
+        function ok() {
+            var país = document.querySelector('input#país').value.toLowerCase()
+            //var país = document.getElementById('país').value.toLowerCase()
+            var res = document.querySelector('div#res')
+            //var res = document.getElementById('res')
+            res.innerHTML = `<p>Vivendo em ${país}</p>`
+            if (país == 'brasil') {
+                res.innerHTML += `<p>Você é brasileiro.</p>`
+            } else {
+                res.innerHTML += `<p>Você é estrangeiro.</p>`
+            }
+        }
+    </script>
+</body>
+</html>
