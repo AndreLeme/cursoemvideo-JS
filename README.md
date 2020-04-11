@@ -22,4 +22,17 @@
 - [ ] Renomear z
 - [ ] aff
 
-acesse o X
+acesse o [X](http://uol.com.br)
+
+NUM | Nome | Nota
+---|---|---
+1|Je|7
+2|Ze|8
+3|Cea|8
+
+``` inicio codigo
+isso era pra ser um codigo
+sera que funciona
+```
+
+:vulcan_salute::hand:
